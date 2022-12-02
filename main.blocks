@@ -1,0 +1,26 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="r(T[j+KP*V[}(=FM0*3)" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="qw,ld3mXSr{lEWJ4AYQ-"><value name="color"><shadow type="colorindexpicker" id="Fi/}z%wH(b@NenIlIF|v"><field name="index">1</field></shadow></value><next><block type="particlesStartScreenAnimation" id="O|`%(MeX2X[1M%}QeK`o"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.blizzard</field><value name="duration"><shadow type="timePicker" id="bvldE~Rn!5.VrdPt.Y4X"><field name="ms">500</field></shadow></value><next><block type="device_pause" id="^sz-A4/W$Gq`[=]^,QfM"><value name="pause"><shadow type="timePicker" id="5#%eH^ch]UuREe)C+B1/"><field name="ms">3000</field></shadow></value><next><block type="game_dialog_set_frame" id="SoA:rupTu{F6GKv7v6x9"><value name="frame"><shadow type="dialog_image_picker" id="|VJ_7um0XyB#]$)6zn2z"><field name="img">img`
+.....cccccccccccccc.....
+...cbd111111111111dbc...
+..cd1111111111111111dc..
+.cd111111111111111111dc.
+.b11111111111111111111b.
+cd11111111111111111111dc
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+c1111111111111111111111c
+cd11111111111111111111dc
+cb11111111111111111111bc
+ccd111111111111111111dc.
+.ccd1111111111111111dcc.
+..c111111111111111dbcc..
+.b11dcccccccccccccccc...
+cddcccccccccccccccc.....
+ccccc...................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"|VJ_7um0XyB#]$)6zn2z"}}</data></shadow></value><next><block type="game_dialog_set_text_color" id="ha3`aNAaN)rHjYqZuJo7"><value name="color"><shadow type="colorindexpicker" id="m3du;,.[k1*Qj09Gfc[m"><field name="index">15</field></shadow></value><next><block type="game_show_long_text" id="4lou=95vL!SMHn;zyG{J"><field name="layout">DialogLayout.Center</field><value name="str"><shadow type="text" id="9JS=x6.{,e~m#Nm~WJ;A"><field name="TEXT">Welcome to The War to End all Wars</field></shadow></value><next><block type="particlesEndScreenAnimation" id="Da/OIZ0[j@![]`6o,T6T"><field name="effect">effects.blizzard</field><next><block type="mixer_play_sound" id="mxsIx11Z,O[#;HTwfo85"><field name="sound">music.powerUp</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
